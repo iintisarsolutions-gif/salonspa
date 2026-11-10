@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="ms" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Butik Salon Dan Spa Munirah | Eksklusif Wanita Muslimah</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <meta name="description" content="Salon dan Spa eksklusif khusus untuk wanita Muslimah. Nikmati rawatan rambut, wajah, dan relaksasi dalam suasana privasi yang menenangkan.">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Butik Salon Dan Spa Munirah | Eksklusif Wanita Muslimah">
+    <meta property="og:description" content="Ruang istimewa untuk anda menikmati kecantikan dan ketenangan. Tempah slot rawatan anda hari ini.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts: Playfair Display (Serif) & Plus Jakarta Sans (Sans-Serif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        champagne: {
+                            50: '#FBF9F5',
+                            100: '#F4EFEA',
+                            200: '#E6DCD1',
+                            300: '#D4C4B2',
+                            400: '#C4A47C',
+                            500: '#B08D57',
+                            600: '#9C7C56',
+                            700: '#7E6344',
+                            800: '#634F37',
+                            900: '#4D3E2C',
+                        },
+                        ivory: '#FAF9F6',
+                        cream: '#F3EFEA',
+                        beige: '#EBE4DC',
+                        mutedgold: '#C5A059',
+                        softbrown: '#5A4A42'
+                    },
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- JSON-LD LocalBusiness Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BeautySalon",
+      "name": "Butik Salon Dan Spa Munirah",
+      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "No. 12-1, Jalan Ampang Utama",
+        "addressLocality": "Kuala Lumpur",
+        "postalCode": "50450",
+        "addressCountry": "MY"
+      },
+      "telephone": "+60123456789",
+      "priceRange": "RM$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "10:00",
+          "closes": "20:00"
+        }
+      ],
+      "audience": {
+        "@type": "PeopleAudience",
+        "suggestedGender": "Female"
+      }
+    }
+    </script>
+
+    <style>
+        /* Custom smooth styles & animations */
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #FAF9F6;
+            color: #2C241D;
+            overflow-x: hidden;
+        }
+        h1, h2, h3, h4, h5, h6, .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        .gold-border {
+            border-color: rgba(197, 160, 89, 0.3);
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #9C7C56 0%, #C5A059 50%, #D4AF37 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-button {
+            background: linear-gradient(135deg, #C5A059 0%, #B08D57 100%);
+            transition: all 0.3s ease;
+        }
+        .gold-button:hover {
+            background: linear-gradient(135deg, #B08D57 0%, #9C7C56 100%);
+            box-shadow: 0 10px 25px -5px rgba(197, 160, 89, 0.4);
+            transform: translateY(-2px);
+        }
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #F4EFEA;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #C5A059;
+            border-radius: 4px;
+        }
+        /* Lightbox modal animation */
+        .lightbox-modal {
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
+        }
+    </style>
+</head>
+<body class="bg-ivory text-softbrown antialiased selection:bg-champagne-300 selection:text-softbrown">
+
+    <!-- TOP BAR NOTIFICATION -->
+    <div class="bg-champagne-800 text-champagne-100 text-xs py-2 px-4 text-center font-medium tracking-wide">
+        <i class="fa-solid fa-sparkles text-champagne-300 mr-2"></i> Tempahan khas untuk wanita Muslimah • Privasi & Ketenangan Terjamin • WhatsApp: +60 12-345 6789
+    </div>
+
+    <!-- HEADER & NAVIGATION -->
+    <header id="navbar" class="sticky top-0 z-40 bg-ivory/90 backdrop-blur-md border-b gold-border transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logo -->
+                <a href="#" class="flex items-center space-x-3 group">
+                    <div class="w-10 h-10 rounded-full border border-champagne-500 flex items-center justify-center bg-champagne-50 group-hover:bg-champagne-200 transition-colors">
+                        <i class="fa-solid fa-spa text-champagne-600 text-lg"></i>
+                    </div>
+                    <div>
+                        <span class="font-serif text-xl sm:text-2xl font-bold tracking-wider text-softbrown block">MUNIRAH</span>
+                        <span class="text-[10px] uppercase tracking-[0.25em] text-champagne-600 font-semibold block -mt-1">Muslimah Salon & Spa</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex items-center space-x-8 text-sm font-medium">
+                    <a href="#utama" class="text-softbrown hover:text-champagne-600 transition-colors">Utama</a>
+                    <a href="#tentang" class="text-softbrown hover:text-champagne-600 transition-colors">Tentang Kami</a>
+                    <a href="#rawatan" class="text-softbrown hover:text-champagne-600 transition-colors">Rawatan</a>
+                    <a href="#pakej" class="text-softbrown hover:text-champagne-600 transition-colors">Pakej</a>
+                    <a href="#galeri" class="text-softbrown hover:text-champagne-600 transition-colors">Galeri</a>
+                    <a href="#testimoni" class="text-softbrown hover:text-champagne-600 transition-colors">Testimoni</a>
+                    <a href="#faq" class="text-softbrown hover:text-champagne-600 transition-colors">FAQ</a>
+                    <a href="#hubungi" class="text-softbrown hover:text-champagne-600 transition-colors">Hubungi</a>
+                </nav>
+
+                <!-- CTA Button Desktop -->
+                <div class="hidden lg:flex items-center space-x-4">
+                    <button onclick="openBookingModal('Munirah Signature', '150')" class="gold-button text-white px-6 py-3 rounded-full text-sm font-semibold tracking-wide shadow-md flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-lg"></i> TEMPAH SEKARANG
+                    </button>
+                </div>
+
+                <!-- Mobile Hamburger Button -->
+                <button id="mobile-menu-btn" class="lg:hidden text-softbrown hover:text-champagne-600 p-2 focus:outline-none" aria-label="Menu">
+                    <i class="fa-solid fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Drawer -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-ivory border-b gold-border px-6 pt-4 pb-6 space-y-4 shadow-xl">
+            <a href="#utama" class="block text-softbrown hover:text-champagne-600 font-medium py-2 border-b border-champagne-100 mobile-link">Utama</a>
+            <a href="#tentang" class="block text-softbrown hover:text-champagne-600 font-medium py-2 border-b border-champagne-100 mobile-link">Tentang Kami</a>
+            <a href="#rawatan" class="block text-softbrown hover:text-champagne-600 font-medium py-2 border-b border-champagne-100 mobile-link">Rawatan</a>
+            <a href="#pakej" class="block text-softbrown hover:text-champagne-600 font-medium py-2 border-b border-champagne-100 mobile-link">Pakej</a>
+            <a href="#galeri" class="block text-softbrown hover:text-champagne-600 font-medium py-2 border-b border-champagne-100 mobile-link">Galeri</a>
+            <a href="#testimoni" class="block text-softbrown hover:text-champagne-600 font-medium py-2 border-b border-champagne-100 mobile-link">Testimoni</a>
+            <a href="#faq" class="block text-softbrown hover:text-champagne-600 font-medium py-2 border-b border-champagne-100 mobile-link">FAQ</a>
+            <a href="#hubungi" class="block text-softbrown hover:text-champagne-600 font-medium py-2 border-b border-champagne-100 mobile-link">Hubungi Kami</a>
+            <div class="pt-2">
+                <button onclick="openBookingModal('Munirah Signature', '150'); toggleMobileMenu();" class="w-full gold-button text-white py-3 rounded-full text-sm font-semibold tracking-wide shadow-md flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> TEMPAH SEKARANG
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="utama" class="relative min-h-[90vh] flex items-center justify-center bg-cover bg-center py-20 px-4" style="background-image: linear-gradient(rgba(44, 36, 29, 0.65), rgba(44, 36, 29, 0.55)), url('https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1920&q=80');">
+        <div class="absolute inset-0 bg-gradient-to-t from-softbrown/80 via-transparent to-black/30"></div>
+        <div class="relative max-w-5xl mx-auto text-center text-white z-10 space-y-8">
+            
+            <!-- Eyebrow -->
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-champagne-300/40 text-champagne-200 text-xs sm:text-sm font-medium tracking-[0.2em] uppercase">
+                <span class="w-2 h-2 rounded-full bg-champagne-400 animate-pulse"></span>
+                EXCLUSIVE MUSLIMAH BEAUTY & SPA
+            </div>
+
+            <!-- Headline -->
+            <h1 class="font-serif text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-wide text-ivory">
+                "Ruang Istimewa Untuk Anda Menikmati Kecantikan & Ketenangan."
+            </h1>
+
+            <!-- Decorative Gold Line -->
+            <div class="flex items-center justify-center space-x-4">
+                <div class="h-[1px] w-16 bg-champagne-400"></div>
+                <i class="fa-solid fa-spa text-champagne-400 text-sm"></i>
+                <div class="h-[1px] w-16 bg-champagne-400"></div>
+            </div>
+
+            <!-- Subheadline -->
+            <p class="max-w-2xl mx-auto text-base sm:text-lg text-champagne-100 font-light leading-relaxed">
+                Luangkan masa untuk diri sendiri dengan pilihan rawatan kecantikan, penjagaan rambut dan terapi relaksasi dalam suasana yang selesa khusus untuk wanita.
+            </p>
+
+            <!-- CTA Buttons -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
+                <a href="#pakej" class="w-full sm:w-auto gold-button text-white px-8 py-4 rounded-full font-semibold text-sm tracking-wide shadow-xl flex items-center justify-center gap-3">
+                    <span>LIHAT PAKEJ RAWATAN</span>
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+                <button onclick="openBookingModal('General Booking', '0')" class="w-full sm:w-auto bg-white/10 hover:bg-white/25 backdrop-blur-md border border-champagne-300/60 text-white px-8 py-4 rounded-full font-semibold text-sm tracking-wide transition-all flex items-center justify-center gap-3">
+                    <i class="fa-brands fa-whatsapp text-champagne-300 text-lg"></i>
+                    <span>TEMPAH SLOT ANDA</span>
+                </button>
+            </div>
+
+            <!-- Floating Info Badge -->
+            <div class="pt-8 flex flex-wrap justify-center gap-6 text-xs sm:text-sm text-champagne-200 font-light">
+                <div class="flex items-center gap-2 bg-black/30 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10">
+                    <i class="fa-solid fa-shield-heart text-champagne-400"></i> 100% Privasi Muslimah
+                </div>
+                <div class="flex items-center gap-2 bg-black/30 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10">
+                    <i class="fa-solid fa-award text-champagne-400"></i> Terapis Wanita Berpengalaman
+                </div>
+                <div class="flex items-center gap-2 bg-black/30 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10">
+                    <i class="fa-solid fa-mug-hot text-champagne-400"></i> Complimentary Herbal Tea
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-6 left-1/2 transform -translate-x-1/2 text-white/70 text-center animate-bounce hidden sm:block">
+            <a href="#tentang" aria-label="Tatal ke bawah">
+                <i class="fa-solid fa-chevron-down text-champagne-300 text-lg"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="tentang" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+            
+            <!-- Left Images Composition (Editorial style) -->
+            <div class="lg:col-span-6 relative">
+                <div class="relative z-10 rounded-2xl overflow-hidden shadow-2xl border-2 gold-border aspect-[4/5] max-w-md mx-auto lg:max-w-none">
+                    <img src="https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&w=800&q=80" alt="Suasana Salon Muslimah" class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" loading="lazy">
+                </div>
+                <!-- Small Floating Accent Image -->
+                <div class="absolute -bottom-8 -left-4 sm:-left-8 w-1/2 rounded-xl overflow-hidden shadow-2xl border-4 border-ivory z-20 hidden sm:block aspect-[4/3]">
+                    <img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=500&q=80" alt="Rawatan Spa Muslimah" class="w-full h-full object-cover" loading="lazy">
+                </div>
+                <!-- Background Gold Accent Box -->
+                <div class="absolute -top-6 -right-6 w-3/4 h-3/4 bg-champagne-100 rounded-2xl -z-10 border gold-border"></div>
+            </div>
+
+            <!-- Right Content -->
+            <div class="lg:col-span-6 space-y-6">
+                <div class="inline-flex items-center gap-2 text-champagne-600 text-xs uppercase tracking-[0.2em] font-bold">
+                    <i class="fa-solid fa-sparkles"></i> TENTANG KAMI
+                </div>
+                
+                <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-softbrown leading-tight">
+                    "Keindahan Bermula Dengan Masa Untuk Diri Sendiri."
+                </h2>
+
+                <div class="h-[2px] w-20 bg-champagne-500"></div>
+
+                <p class="text-softbrown/80 font-normal leading-relaxed text-base sm:text-lg">
+                    <strong>Butik Salon Dan SPA Munirah</strong> dibina khas sebagai tempat perlindungan eksklusif (sanctuary) bagi wanita Muslimah yang mendambakan penjagaan diri berkualiti tinggi tanpa berkompromi dengan aurat dan privasi.
+                </p>
+
+                <p class="text-softbrown/70 font-light leading-relaxed text-sm sm:text-base">
+                    Kami menawarkan rangkaian rawatan komprehensif merangkumi penjagaan rambut profesional, rawatan wajah menyegarkan, hingga terapi spa & relaksasi tubuh. Setiap produk yang digunakan adalah halal, suci, dan berkualiti tinggi.
+                </p>
+
+                <!-- Key Highlights Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
+                    <div class="flex items-start space-x-3 p-4 rounded-xl bg-white border gold-border shadow-sm">
+                        <div class="w-10 h-10 rounded-lg bg-champagne-100 flex items-center justify-center shrink-0 text-champagne-600">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-softbrown text-sm">Privasi Mutlak</h3>
+                            <p class="text-xs text-stone-600 mt-1">100% khusus wanita, ruang tertutup & selesa.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start space-x-3 p-4 rounded-xl bg-white border gold-border shadow-sm">
+                        <div class="w-10 h-10 rounded-lg bg-champagne-100 flex items-center justify-center shrink-0 text-champagne-600">
+                            <i class="fa-solid fa-leaf"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-semibold text-softbrown text-sm">Produk Halal & Premium</h3>
+                            <p class="text-xs text-stone-600 mt-1">Bahan semulajadi yang mesra wuduk dan selamat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-4">
+                    <a href="#rawatan" class="inline-flex items-center gap-3 text-champagne-700 font-semibold text-sm hover:text-softbrown transition-colors">
+                        <span>Terokai Senarai Rawatan Kami</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION – PILIHAN RAWATAN -->
+    <section id="rawatan" class="py-24 bg-champagne-50/60 border-y gold-border">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <span class="text-champagne-600 text-xs uppercase tracking-[0.2em] font-bold">MENU RAWATAN EKSKLUSIF</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-softbrown">Pilihan Rawatan Profesional</h2>
+                <div class="h-[2px] w-16 bg-champagne-500 mx-auto"></div>
+                <p class="text-softbrown/70 text-sm sm:text-base">
+                    Pilih daripada pelbagai rawatan kecantikan dan kesihatan yang direka khusus untuk memanjakan diri anda.
+                </p>
+            </div>
+
+            <!-- Category Tabs -->
+            <div class="flex flex-wrap justify-center gap-2 sm:gap-4 mb-12" role="tablist">
+                <button onclick="filterTreatment('rambut', event)" class="treatment-tab px-6 py-3 rounded-full text-xs sm:text-sm font-semibold tracking-wide transition-all bg-champagne-600 text-white shadow-md" role="tab">
+                    Rawatan Rambut
+                </button>
+                <button onclick="filterTreatment('wajah', event)" class="treatment-tab px-6 py-3 rounded-full text-xs sm:text-sm font-semibold tracking-wide transition-all bg-white text-softbrown hover:bg-champagne-100 border gold-border" role="tab">
+                    Rawatan Wajah
+                </button>
+                <button onclick="filterTreatment('spa', event)" class="treatment-tab px-6 py-3 rounded-full text-xs sm:text-sm font-semibold tracking-wide transition-all bg-white text-softbrown hover:bg-champagne-100 border gold-border" role="tab">
+                    Spa & Relaksasi
+                </button>
+                <button onclick="filterTreatment('kecantikan', event)" class="treatment-tab px-6 py-3 rounded-full text-xs sm:text-sm font-semibold tracking-wide transition-all bg-white text-softbrown hover:bg-champagne-100 border gold-border" role="tab">
+                    Penjagaan Kuku & Tangan
+                </button>
+            </div>
+
+            <!-- Treatment Cards Grid -->
+            <div id="treatment-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Javascript will populate these dynamically for clean filtering -->
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION – PAKEJ ISTIMEWA -->
+    <section id="pakej" class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+            <span class="text-champagne-600 text-xs uppercase tracking-[0.2em] font-bold">NILAI & KEMUDAHAN MAKSIMA</span>
+            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-softbrown">Pakej Istimewa Pilihan</h2>
+            <div class="h-[2px] w-16 bg-champagne-500 mx-auto"></div>
+            <p class="text-softbrown/70 text-sm sm:text-base">
+                Kombinasi rawatan terbaik yang memberikan penjimatan dan pengalaman relaksasi yang menyeluruh.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
+            
+            <!-- Pakej 1: Munirah Signature (Featured) -->
+            <div class="bg-white rounded-2xl p-8 border-2 border-champagne-500 shadow-xl relative flex flex-col justify-between transform lg:-translate-y-2">
+                <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-champagne-600 text-white text-[11px] font-bold tracking-widest uppercase px-4 py-1.5 rounded-full shadow-md">
+                    Paling Popular
+                </div>
+                <div>
+                    <div class="text-center pb-6 border-b gold-border">
+                        <h3 class="font-serif text-2xl font-bold text-softbrown">MUNIRAH SIGNATURE</h3>
+                        <p class="text-xs text-stone-600 mt-1">Sesuai untuk penjagaan kecantikan asas & kesegaran.</p>
+                        <div class="mt-4">
+                            <span class="text-3xl font-serif font-bold text-champagne-600">RM 150</span>
+                            <span class="text-xs text-stone-600 block mt-1">Anggaran Masa: 2 Jam</span>
+                        </div>
+                    </div>
+                    <ul class="py-6 space-y-3 text-sm text-softbrown/80">
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Hair Spa</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Hair Wash & Blow</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Basic Facial</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Free Herbal Tea & Consultation</li>
+                    </ul>
+                </div>
+                <button onclick="openBookingModal('Munirah Signature', '150')" class="w-full gold-button text-white py-3.5 rounded-full font-semibold text-sm shadow-md mt-6 flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> PILIH PAKEJ INI
+                </button>
+            </div>
+
+            <!-- Pakej 2: Relax & Recharge -->
+            <div class="bg-white rounded-2xl p-8 border gold-border shadow-md flex flex-col justify-between hover:shadow-xl transition-shadow">
+                <div>
+                    <div class="text-center pb-6 border-b gold-border">
+                        <h3 class="font-serif text-2xl font-bold text-softbrown">RELAX & RECHARGE</h3>
+                        <p class="text-xs text-stone-600 mt-1">Sesuai untuk menikmati masa relaksasi & hilangkan tekanan.</p>
+                        <div class="mt-4">
+                            <span class="text-3xl font-serif font-bold text-champagne-600">RM 180</span>
+                            <span class="text-xs text-stone-600 block mt-1">Anggaran Masa: 2.5 Jam</span>
+                        </div>
+                    </div>
+                    <ul class="py-6 space-y-3 text-sm text-softbrown/80">
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Head & Shoulder Massage</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Foot Spa & Scrub</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Aromatherapy Relaxation</li>
+                    </ul>
+                </div>
+                <button onclick="openBookingModal('Relax & Recharge', '180')" class="w-full bg-stone-900 hover:bg-champagne-700 text-white py-3.5 rounded-full font-semibold text-sm shadow-md transition-colors mt-6 flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> PILIH PAKEJ INI
+                </button>
+            </div>
+
+            <!-- Pakej 3: Beauty Glow -->
+            <div class="bg-white rounded-2xl p-8 border gold-border shadow-md flex flex-col justify-between hover:shadow-xl transition-shadow">
+                <div>
+                    <div class="text-center pb-6 border-b gold-border">
+                        <h3 class="font-serif text-2xl font-bold text-softbrown">BEAUTY GLOW</h3>
+                        <p class="text-xs text-stone-600 mt-1">Fokus kepada penjagaan wajah dan kecantikan berseri.</p>
+                        <div class="mt-4">
+                            <span class="text-3xl font-serif font-bold text-champagne-600">RM 220</span>
+                            <span class="text-xs text-stone-600 block mt-1">Anggaran Masa: 2 Jam</span>
+                        </div>
+                    </div>
+                    <ul class="py-6 space-y-3 text-sm text-softbrown/80">
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Deep Cleansing Facial</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Hydrating Facial Mask</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Hand Treatment & Polish</li>
+                    </ul>
+                </div>
+                <button onclick="openBookingModal('Beauty Glow', '220')" class="w-full bg-stone-900 hover:bg-champagne-700 text-white py-3.5 rounded-full font-semibold text-sm shadow-md transition-colors mt-6 flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> PILIH PAKEJ INI
+                </button>
+            </div>
+
+            <!-- Pakej 4: Hair Care Deluxe -->
+            <div class="bg-white rounded-2xl p-8 border gold-border shadow-md flex flex-col justify-between hover:shadow-xl transition-shadow">
+                <div>
+                    <div class="text-center pb-6 border-b gold-border">
+                        <h3 class="font-serif text-2xl font-bold text-softbrown">HAIR CARE DELUXE</h3>
+                        <p class="text-xs text-stone-600 mt-1">Fokus kepada kesihatan rambut dan kulit kepala.</p>
+                        <div class="mt-4">
+                            <span class="text-3xl font-serif font-bold text-champagne-600">RM 160</span>
+                            <span class="text-xs text-stone-600 block mt-1">Anggaran Masa: 2 Jam</span>
+                        </div>
+                    </div>
+                    <ul class="py-6 space-y-3 text-sm text-softbrown/80">
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Hair Wash</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Hair Mask Treatment</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Scalp Treatment</li>
+                        <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Professional Hair Styling</li>
+                    </ul>
+                </div>
+                <button onclick="openBookingModal('Hair Care Deluxe', '160')" class="w-full bg-stone-900 hover:bg-champagne-700 text-white py-3.5 rounded-full font-semibold text-sm shadow-md transition-colors mt-6 flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> PILIH PAKEJ INI
+                </button>
+            </div>
+
+            <!-- Pakej 5: Full Body Retreat -->
+            <div class="bg-white rounded-2xl p-8 border gold-border shadow-md flex flex-col justify-between hover:shadow-xl transition-shadow md:col-span-2 lg:col-span-2">
+                <div>
+                    <div class="text-center pb-6 border-b gold-border">
+                        <h3 class="font-serif text-2xl font-bold text-softbrown">FULL BODY RETREAT</h3>
+                        <p class="text-xs text-stone-600 mt-1">Pengalaman penjagaan diri yang paling menyeluruh & mewah.</p>
+                        <div class="mt-4">
+                            <span class="text-3xl font-serif font-bold text-champagne-600">RM 320</span>
+                            <span class="text-xs text-stone-600 block mt-1">Anggaran Masa: 3.5 Jam</span>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 py-6 text-sm text-softbrown/80">
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Exfoliating Body Scrub</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Luxury Body Spa Treatment</li>
+                        </ul>
+                        <ul class="space-y-3">
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Foot Treatment & Pedicure</li>
+                            <li class="flex items-center gap-3"><i class="fa-solid fa-check text-champagne-600"></i> Full Aromatherapy Relaxation</li>
+                        </ul>
+                    </div>
+                </div>
+                <button onclick="openBookingModal('Full Body Retreat', '320')" class="w-full gold-button text-white py-3.5 rounded-full font-semibold text-sm shadow-md mt-6 flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-lg"></i> PILIH PAKEJ INI
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- GALLERY SECTION (Asymmetric Masonry & Lightbox) -->
+    <section id="galeri" class="py-24 bg-champagne-50/60 border-y gold-border">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <span class="text-champagne-600 text-xs uppercase tracking-[0.2em] font-bold">ESTETIKA & SUASANA KAMI</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-softbrown">Galeri Butik & Spa</h2>
+                <div class="h-[2px] w-16 bg-champagne-500 mx-auto"></div>
+                <p class="text-softbrown/70 text-sm sm:text-base">
+                    Intai suasana tenang, eksklusif dan selesa yang menanti kunjungan anda.
+                </p>
+            </div>
+
+            <!-- Asymmetric Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 auto-rows-[250px]">
+                
+                <div class="relative rounded-2xl overflow-hidden shadow-lg group cursor-pointer md:row-span-2" onclick="openLightbox(0)">
+                    <img src="gambar 1.jpg" alt="Ruang Salon Utama" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+                        <i class="fa-solid fa-magnifying-glass-plus text-2xl"></i>
+                    </div>
+                </div>
+
+                <div class="relative rounded-2xl overflow-hidden shadow-lg group cursor-pointer" onclick="openLightbox(1)">
+                    <img src="gambar 2.jpeg" alt="Rawatan Rambut" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+                        <i class="fa-solid fa-magnifying-glass-plus text-2xl"></i>
+                    </div>
+                </div>
+
+                <div class="relative rounded-2xl overflow-hidden shadow-lg group cursor-pointer" onclick="openLightbox(2)">
+                    <img src="gambar 3.jpeg" alt="Rawatan Wajah" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+                        <i class="fa-solid fa-magnifying-glass-plus text-2xl"></i>
+                    </div>
+                </div>
+
+                <div class="relative rounded-2xl overflow-hidden shadow-lg group cursor-pointer md:col-span-2" onclick="openLightbox(3)">
+                    <img src="gambar 4.jpg" alt="Bilik Spa Relaksasi" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+                        <i class="fa-solid fa-magnifying-glass-plus text-2xl"></i>
+                    </div>
+                </div>
+
+                <div class="relative rounded-2xl overflow-hidden shadow-lg group cursor-pointer" onclick="openLightbox(4)">
+                    <img src="gambar 5.jpeg" alt="Produk & Penjagaan" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center text-white">
+                        <i class="fa-solid fa-magnifying-glass-plus text-2xl"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- KELEBIHAN KAMI -->
+    <section class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+            <span class="text-champagne-600 text-xs uppercase tracking-[0.2em] font-bold">MENGAPA PILIH KAMI</span>
+            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-softbrown">Kelebihan Butik Munirah</h2>
+            <div class="h-[2px] w-16 bg-champagne-500 mx-auto"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="p-8 rounded-2xl bg-white border gold-border shadow-sm hover:shadow-md transition-shadow">
+                <div class="w-14 h-14 rounded-xl bg-champagne-100 flex items-center justify-center text-champagne-600 text-2xl mb-6">
+                    <i class="fa-solid fa-shield-heart"></i>
+                </div>
+                <h3 class="font-serif text-xl font-bold text-softbrown mb-3">Khusus Untuk Muslimah</h3>
+                <p class="text-softbrown/70 text-sm leading-relaxed">
+                    Persekitaran yang seratus peratus menjaga aurat, memberikan ketenangan fikiran tanpa kebimbangan.
+                </p>
+            </div>
+
+            <div class="p-8 rounded-2xl bg-white border gold-border shadow-sm hover:shadow-md transition-shadow">
+                <div class="w-14 h-14 rounded-xl bg-champagne-100 flex items-center justify-center text-champagne-600 text-2xl mb-6">
+                    <i class="fa-solid fa-mug-hot"></i>
+                </div>
+                <h3 class="font-serif text-xl font-bold text-softbrown mb-3">Suasana Menenangkan</h3>
+                <p class="text-softbrown/70 text-sm leading-relaxed">
+                    Aromaterapi menenangkan, alunan muzik santai, dan ruang eksklusif untuk melepaskan penat lelah harian.
+                </p>
+            </div>
+
+            <div class="p-8 rounded-2xl bg-white border gold-border shadow-sm hover:shadow-md transition-shadow">
+                <div class="w-14 h-14 rounded-xl bg-champagne-100 flex items-center justify-center text-champagne-600 text-2xl mb-6">
+                    <i class="fa-solid fa-spa"></i>
+                </div>
+                <h3 class="font-serif text-xl font-bold text-softbrown mb-3">Rawatan Pelbagai</h3>
+                <p class="text-softbrown/70 text-sm leading-relaxed">
+                    Penyelesaian sehenti dari rambut, kulit wajah, hinggalah rawatan badan dan kuku dalam satu lokasi.
+                </p>
+            </div>
+
+            <div class="p-8 rounded-2xl bg-white border gold-border shadow-sm hover:shadow-md transition-shadow">
+                <div class="w-14 h-14 rounded-xl bg-champagne-100 flex items-center justify-center text-champagne-600 text-2xl mb-6">
+                    <i class="fa-solid fa-hand-holding-heart"></i>
+                </div>
+                <h3 class="font-serif text-xl font-bold text-softbrown mb-3">Layanan Mesra & Profesional</h3>
+                <p class="text-softbrown/70 text-sm leading-relaxed">
+                    Terapis terlatih yang sentiasa melayan anda dengan senyuman dan kepakaran tinggi.
+                </p>
+            </div>
+
+            <div class="p-8 rounded-2xl bg-white border gold-border shadow-sm hover:shadow-md transition-shadow">
+                <div class="w-14 h-14 rounded-xl bg-champagne-100 flex items-center justify-center text-champagne-600 text-2xl mb-6">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <h3 class="font-serif text-xl font-bold text-softbrown mb-3">Tempahan Pantas</h3>
+                <p class="text-softbrown/70 text-sm leading-relaxed">
+                    Sistem tempahan terus ke WhatsApp yang pantas, mudah, dan disahkan serta-merta oleh pihak kami.
+                </p>
+            </div>
+
+            <div class="p-8 rounded-2xl bg-white border gold-border shadow-sm hover:shadow-md transition-shadow">
+                <div class="w-14 h-14 rounded-xl bg-champagne-100 flex items-center justify-center text-champagne-600 text-2xl mb-6">
+                    <i class="fa-solid fa-award"></i>
+                </div>
+                <h3 class="font-serif text-xl font-bold text-softbrown mb-3">Produk Berkualiti Tinggi</h3>
+                <p class="text-softbrown/70 text-sm leading-relaxed">
+                    Hanya menggunakan produk penjagaan terbaik yang dijamin suci, halal, dan berkesan untuk kulit serta rambut.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- TESTIMONI PELANGGAN -->
+    <section id="testimoni" class="py-24 bg-champagne-50/60 border-y gold-border">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <span class="text-champagne-600 text-xs uppercase tracking-[0.2em] font-bold">ULASAN PELANGGAN KAMI</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-softbrown">Apa Kata Mereka?</h2>
+                <div class="h-[2px] w-16 bg-champagne-500 mx-auto"></div>
+            </div>
+
+            <!-- Testimonials Grid / Slider container -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-white p-8 rounded-2xl border gold-border shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-500 space-x-1 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-softbrown/80 text-sm italic leading-relaxed">
+                            "Suasana yang sangat tenang dan privasi terjaga rapi. Sangat selesa buat wanita berhijab seperti saya. Rawatan rambut memang terbaik!"
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t gold-border flex items-center justify-between">
+                        <div>
+                            <h4 class="font-serif font-bold text-softbrown text-sm">Puan Mastura</h4>
+                            <span class="text-xs text-stone-600">Pelanggan Tetap</span>
+                        </div>
+                        <i class="fa-solid fa-quote-right text-champagne-300 text-2xl"></i>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border gold-border shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-500 space-x-1 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-softbrown/80 text-sm italic leading-relaxed">
+                            "Ambil pakej 'Relax & Recharge', badan terasa ringan selepas letih bekerja. Terapis sangat lembut dan mesra. Pasti akan datang lagi!"
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t gold-border flex items-center justify-between">
+                        <div>
+                            <h4 class="font-serif font-bold text-softbrown text-sm">Cik Adriana</h4>
+                            <span class="text-xs text-stone-600">Pakej Relax & Recharge</span>
+                        </div>
+                        <i class="fa-solid fa-quote-right text-champagne-300 text-2xl"></i>
+                    </div>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl border gold-border shadow-sm flex flex-col justify-between">
+                    <div>
+                        <div class="flex text-amber-500 space-x-1 mb-4 text-sm">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-softbrown/80 text-sm italic leading-relaxed">
+                            "Facial di sini sangat memuaskan. Kulit muka jadi lebihberseri dan segar. Tempahan melalui WhatsApp juga sangat mudah dan cepat dilayan."
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t gold-border flex items-center justify-between">
+                        <div>
+                            <h4 class="font-serif font-bold text-softbrown text-sm">Puan Zubaidah</h4>
+                            <span class="text-xs text-stone-600">Pakej Beauty Glow</span>
+                        </div>
+                        <i class="fa-solid fa-quote-right text-champagne-300 text-2xl"></i>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="text-center mt-12 text-xs text-stone-600">
+                * Ulasan di atas adalah contoh demonstrasi pelanggan yang boleh dikemas kini.
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="py-24 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+        <div class="text-center space-y-4 mb-16">
+            <span class="text-champagne-600 text-xs uppercase tracking-[0.2em] font-bold">SOALAN LAZIM</span>
+            <h2 class="font-serif text-3xl sm:text-4xl font-bold text-softbrown">Ada Pertanyaan?</h2>
+            <div class="h-[2px] w-16 bg-champagne-500 mx-auto"></div>
+        </div>
+
+        <div class="space-y-4">
+            
+            <!-- FAQ 1 -->
+            <div class="bg-white rounded-xl border gold-border overflow-hidden">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center p-6 text-left font-serif font-bold text-softbrown text-base sm:text-lg focus:outline-none">
+                    <span>Adakah salon ini khusus untuk wanita Muslimah?</span>
+                    <i class="fa-solid fa-plus text-champagne-600 transition-transform duration-300"></i>
+                </button>
+                <div class="faq-content hidden px-6 pb-6 text-sm text-softbrown/70 leading-relaxed border-t gold-border pt-4">
+                    Ya, seratus peratus. Butik Salon Dan SPA Munirah direka khas dan dikhususkan hanya untuk wanita sahaja bagi menjamin privasi dan keselesaan penuh tanpa sebarang kerisauan.
+                </div>
+            </div>
+
+            <!-- FAQ 2 -->
+            <div class="bg-white rounded-xl border gold-border overflow-hidden">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center p-6 text-left font-serif font-bold text-softbrown text-base sm:text-lg focus:outline-none">
+                    <span>Bagaimana cara membuat tempahan?</span>
+                    <i class="fa-solid fa-plus text-champagne-600 transition-transform duration-300"></i>
+                </button>
+                <div class="faq-content hidden px-6 pb-6 text-sm text-softbrown/70 leading-relaxed border-t gold-border pt-4">
+                    Anda boleh menekan butang 'Tempah Sekarang' atau pilih pakej pilihan anda. Borang tempahan akan dibuka dan maklumat anda akan dihantar terus melalui WhatsApp kepada pihak kami secara automatik.
+                </div>
+            </div>
+
+            <!-- FAQ 3 -->
+            <div class="bg-white rounded-xl border gold-border overflow-hidden">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center p-6 text-left font-serif font-bold text-softbrown text-base sm:text-lg focus:outline-none">
+                    <span>Adakah saya perlu membuat appointment terlebih dahulu?</span>
+                    <i class="fa-solid fa-plus text-champagne-600 transition-transform duration-300"></i>
+                </button>
+                <div class="faq-content hidden px-6 pb-6 text-sm text-softbrown/70 leading-relaxed border-t gold-border pt-4">
+                    Ya, kami amat menggalakkan tempahan awal (appointment) dibuat supaya kami dapat memastikan slot masa anda terjamin dan memberikan khidmat terbaik tanpa menunggu lama.
+                </div>
+            </div>
+
+            <!-- FAQ 4 -->
+            <div class="bg-white rounded-xl border gold-border overflow-hidden">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center p-6 text-left font-serif font-bold text-softbrown text-base sm:text-lg focus:outline-none">
+                    <span>Berapa lamakah tempoh setiap rawatan?</span>
+                    <i class="fa-solid fa-plus text-champagne-600 transition-transform duration-300"></i>
+                </button>
+                <div class="faq-content hidden px-6 pb-6 text-sm text-softbrown/70 leading-relaxed border-t gold-border pt-4">
+                    Tempoh rawatan bergantung kepada jenis perkhidmatan atau pakej yang dipilih, kebiasaannya mengambil masa antara 1 hingga 3.5 jam. Anggaran masa tertera pada setiap butiran pakej.
+                </div>
+            </div>
+
+            <!-- FAQ 5 -->
+            <div class="bg-white rounded-xl border gold-border overflow-hidden">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center p-6 text-left font-serif font-bold text-softbrown text-base sm:text-lg focus:outline-none">
+                    <span>Bolehkah saya memilih beberapa rawatan sekali gus?</span>
+                    <i class="fa-solid fa-plus text-champagne-600 transition-transform duration-300"></i>
+                </button>
+                <div class="faq-content hidden px-6 pb-6 text-sm text-softbrown/70 leading-relaxed border-t gold-border pt-4">
+                    Sudah tentu! Anda boleh memilih pakej kombo kami atau menyatakan rawatan tambahan di ruangan catatan semasa membuat tempahan melalui WhatsApp.
+                </div>
+            </div>
+
+            <!-- FAQ 6 -->
+            <div class="bg-white rounded-xl border gold-border overflow-hidden">
+                <button onclick="toggleFaq(this)" class="w-full flex justify-between items-center p-6 text-left font-serif font-bold text-softbrown text-base sm:text-lg focus:outline-none">
+                    <span>Bagaimana jika saya ingin menukar tarikh tempahan?</span>
+                    <i class="fa-solid fa-plus text-champagne-600 transition-transform duration-300"></i>
+                </button>
+                <div class="faq-content hidden px-6 pb-6 text-sm text-softbrown/70 leading-relaxed border-t gold-border pt-4">
+                    Anda boleh memaklumkan kepada kami melalui WhatsApp sekurang-kurangnya 24 jam sebelum tarikh temujanji untuk penukaran jadual (reschedule) tertakluk kepada kekosongan slot.
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECTION – BORANG PERTANYAAN & TEMPAHAN -->
+    <section id="hubungi" class="py-24 bg-champagne-50/60 border-y gold-border">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-3xl p-8 sm:p-12 border-2 gold-border shadow-xl">
+                
+                <div class="text-center space-y-4 mb-10">
+                    <span class="text-champagne-600 text-xs uppercase tracking-[0.2em] font-bold">TEMPAHAN & PERTANYAAN</span>
+                    <h2 class="font-serif text-3xl sm:text-4xl font-bold text-softbrown">Tempah Slot Rawatan Anda</h2>
+                    <div class="h-[2px] w-16 bg-champagne-500 mx-auto"></div>
+                    <p class="text-softbrown/70 text-sm">
+                        Isikan maklumat di bawah dan hantar terus ke WhatsApp kami untuk pengesahan pantas.
+                    </p>
+                </div>
+
+                <form id="contact-form" onsubmit="handleMainFormSubmit(event)" class="space-y-6">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-xs font-semibold uppercase tracking-wider text-softbrown mb-2">Nama Penuh *</label>
+                            <input type="text" id="main-name" required class="w-full px-4 py-3 rounded-xl border gold-border focus:outline-none focus:ring-2 focus:ring-champagne-500 text-sm bg-ivory" placeholder="Cth: Siti Aminah">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold uppercase tracking-wider text-softbrown mb-2">Nombor WhatsApp *</label>
+                            <input type="tel" id="main-phone" required class="w-full px-4 py-3 rounded-xl border gold-border focus:outline-none focus:ring-2 focus:ring-champagne-500 text-sm bg-ivory" placeholder="Cth: 0123456789">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-xs font-semibold uppercase tracking-wider text-softbrown mb-2">Pilihan Kategori Rawatan</label>
+                            <select id="main-category" class="w-full px-4 py-3 rounded-xl border gold-border focus:outline-none focus:ring-2 focus:ring-champagne-500 text-sm bg-ivory">
+                                <option value="Rawatan Rambut">Rawatan Rambut</option>
+                                <option value="Rawatan Wajah">Rawatan Wajah</option>
+                                <option value="Spa & Relaksasi">Spa & Relaksasi</option>
+                                <option value="Penjagaan Kuku & Tangan">Penjagaan Kuku & Tangan</option>
+                                <option value="Pakej Istimewa">Pakej Istimewa</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold uppercase tracking-wider text-softbrown mb-2">Nama Rawatan / Pakej *</label>
+                            <input type="text" id="main-package" required class="w-full px-4 py-3 rounded-xl border gold-border focus:outline-none focus:ring-2 focus:ring-champagne-500 text-sm bg-ivory" placeholder="Cth: Munirah Signature">
+                        </div>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                        <div>
+                            <label class="block text-xs font-semibold uppercase tracking-wider text-softbrown mb-2">Tarikh Pilihan *</label>
+                            <input type="date" id="main-date" required class="w-full px-4 py-3 rounded-xl border gold-border focus:outline-none focus:ring-2 focus:ring-champagne-500 text-sm bg-ivory">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold uppercase tracking-wider text-softbrown mb-2">Masa Pilihan *</label>
+                            <select id="main-time" required class="w-full px-4 py-3 rounded-xl border gold-border focus:outline-none focus:ring-2 focus:ring-champagne-500 text-sm bg-ivory">
+                                <option value="10:00 AM">10:00 AM</option>
+                                <option value="11:30 AM">11:30 AM</option>
+                                <option value="02:00 PM">02:00 PM</option>
+                                <option value="03:30 PM">03:30 PM</option>
+                                <option value="05:00 PM">05:00 PM</option>
+                                <option value="06:30 PM">06:30 PM</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold uppercase tracking-wider text-softbrown mb-2">Bilangan Pelanggan *</label>
+                            <select id="main-pax" required class="w-full px-4 py-3 rounded-xl border gold-border focus:outline-none focus:ring-2 focus:ring-champagne-500 text-sm bg-ivory">
+                                <option value="1 Orang">1 Orang</option>
+                                <option value="2 Orang">2 Orang (Bersama Teman)</option>
+                                <option value="3 Orang">3 Orang</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-semibold uppercase tracking-wider text-softbrown mb-2">Catatan / Permintaan Khas (Pilihan)</label>
+                        <textarea id="main-notes" rows="3" class="w-full px-4 py-3 rounded-xl border gold-border focus:outline-none focus:ring-2 focus:ring-champagne-500 text-sm bg-ivory" placeholder="Sebarang nota atau pertanyaan tambahan..."></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full gold-button text-white py-4 rounded-xl font-semibold text-sm tracking-wide shadow-lg flex items-center justify-center gap-3">
+                        <i class="fa-brands fa-whatsapp text-xl"></i>
+                        <span>HANTAR PERTANYAAN / TEMPAHAN KE WHATSAPP</span>
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION – LOKASI & HUBUNGI KAMI -->
+    <section class="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            
+            <div class="space-y-6">
+                <span class="text-champagne-600 text-xs uppercase tracking-[0.2em] font-bold">KUNJUNGI KAMI</span>
+                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-softbrown">Lokasi & Waktu Operasi</h2>
+                <div class="h-[2px] w-16 bg-champagne-500"></div>
+                <p class="text-softbrown/70 text-sm leading-relaxed">
+                    Terletak di lokasi yang mudah diakses dengan ruang parkir yang selesa khusus untuk pelanggan wanita.
+                </p>
+
+                <div class="space-y-4 pt-2">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-10 h-10 rounded-full bg-champagne-100 flex items-center justify-center text-champagne-600 shrink-0">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-softbrown text-sm">Alamat Butik</h4>
+                            <p class="text-xs text-softbrown/70 mt-1">No. 12-1, Jalan Ampang Utama, 50450 Kuala Lumpur, Malaysia</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <div class="w-10 h-10 rounded-full bg-champagne-100 flex items-center justify-center text-champagne-600 shrink-0">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-softbrown text-sm">Nombor Telefon / WhatsApp</h4>
+                            <p class="text-xs text-softbrown/70 mt-1">+60 12-345 6789</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-4">
+                        <div class="w-10 h-10 rounded-full bg-champagne-100 flex items-center justify-center text-champagne-600 shrink-0">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-softbrown text-sm">Waktu Operasi</h4>
+                            <p class="text-xs text-softbrown/70 mt-1">Selasa - Ahad: 10:00 Pagi - 8:00 Malam<br>Isnin: Cuti (Kecuali cuti umum)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pt-4 flex gap-4">
+                    <a href="https://wa.me/60123456789" target="_blank" rel="noopener noreferrer" class="gold-button text-white px-6 py-3 rounded-full text-xs font-semibold tracking-wide shadow-md flex items-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-base"></i> WhatsApp Kami
+                    </a>
+                    <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="bg-white hover:bg-champagne-100 text-softbrown border gold-border px-6 py-3 rounded-full text-xs font-semibold tracking-wide shadow-sm transition-colors flex items-center gap-2">
+                        <i class="fa-solid fa-map-location-dot text-base text-champagne-600"></i> Buka Google Maps
+                    </a>
+                </div>
+            </div>
+
+            <!-- Google Maps Embed Placeholder -->
+            <div class="rounded-2xl overflow-hidden shadow-xl border-2 gold-border h-[400px]">
+                <iframe title="Peta Lokasi Butik Salon Dan Spa Munirah" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.795856184134!2d101.7118!3d3.1578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zM8KwMDknMjguMSJOIDEwMcKwNDInNDIuNSJF!5e0!3m2!1sen!2smy!4v1620000000000!5m2!1sen!2smy" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-softbrown text-champagne-100 pt-16 pb-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-white/10">
+                
+                <!-- Col 1 -->
+                <div class="space-y-4">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 rounded-full border border-champagne-400 flex items-center justify-center bg-white/5">
+                            <i class="fa-solid fa-spa text-champagne-400"></i>
+                        </div>
+                        <div>
+                            <span class="font-serif text-lg font-bold tracking-wider text-white block">MUNIRAH</span>
+                            <span class="text-[9px] uppercase tracking-[0.2em] text-champagne-300 block -mt-1">Muslimah Salon & Spa</span>
+                        </div>
+                    </div>
+                    <p class="text-xs text-champagne-200/80 leading-relaxed font-light">
+                        Destinasi kecantikan eksklusif dan tempat relaksasi terulung khusus untuk wanita Muslimah di Kuala Lumpur.
+                    </p>
+                    <div class="flex space-x-3 pt-2">
+                        <a href="#" class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-champagne-500 transition-colors text-white text-xs"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-champagne-500 transition-colors text-white text-xs"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-champagne-500 transition-colors text-white text-xs"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <!-- Col 2 -->
+                <div>
+                    <h4 class="font-serif font-bold text-white text-sm mb-4 tracking-wide uppercase">Pautan Pantas</h4>
+                    <ul class="space-y-2 text-xs text-champagne-200/80">
+                        <li><a href="#utama" class="hover:text-champagne-300 transition-colors">Utama</a></li>
+                        <li><a href="#tentang" class="hover:text-champagne-300 transition-colors">Tentang Kami</a></li>
+                        <li><a href="#rawatan" class="hover:text-champagne-300 transition-colors">Rawatan</a></li>
+                        <li><a href="#pakej" class="hover:text-champagne-300 transition-colors">Pakej Istimewa</a></li>
+                        <li><a href="#galeri" class="hover:text-champagne-300 transition-colors">Galeri</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3 -->
+                <div>
+                    <h4 class="font-serif font-bold text-white text-sm mb-4 tracking-wide uppercase">Kategori Rawatan</h4>
+                    <ul class="space-y-2 text-xs text-champagne-200/80">
+                        <li><a href="#rawatan" class="hover:text-champagne-300 transition-colors">Rawatan Rambut & Scalp</a></li>
+                        <li><a href="#rawatan" class="hover:text-champagne-300 transition-colors">Rawatan Wajah (Facial)</a></li>
+                        <li><a href="#rawatan" class="hover:text-champagne-300 transition-colors">Spa & Relaksasi Badan</a></li>
+                        <li><a href="#rawatan" class="hover:text-champagne-300 transition-colors">Manicure & Pedicure</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4 -->
+                <div>
+                    <h4 class="font-serif font-bold text-white text-sm mb-4 tracking-wide uppercase">Hubungi Kami</h4>
+                    <ul class="space-y-3 text-xs text-champagne-200/80">
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-location-dot text-champagne-400 mt-0.5"></i>
+                            <span>No. 12-1, Jalan Ampang Utama, 50450 Kuala Lumpur</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-phone text-champagne-400"></i>
+                            <span>+60 12-345 6789</span>
+                        </li>
+                        <li class="flex items-center gap-2">
+                            <i class="fa-solid fa-envelope text-champagne-400"></i>
+                            <span>tempahan@salonmunirah.my</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Copyright -->
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-champagne-300/60 font-light">
+                <p>&copy; 2026 Butik Salon Dan Spa Munirah. Hak Cipta Terpelihara.</p>
+                <p class="mt-2 sm:mt-0">Eksklusif Wanita Muslimah • Halal & Privacy First</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/60123456789?text=Hi%20Butik%20Salon%20Dan%20Spa%20Munirah,%20saya%20ingin%20bertanya%20mengenai%20rawatan." target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-40 w-14 h-14 bg-emerald-600 hover:bg-emerald-500 text-white rounded-full shadow-2xl flex items-center justify-center text-2xl transition-transform hover:scale-110 focus:outline-none" aria-label="WhatsApp Kami">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- BOOKING MODAL POPUP -->
+    <div id="booking-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm opacity-0 pointer-events-none lightbox-modal p-4">
+        <div class="bg-white rounded-3xl max-w-lg w-full p-6 sm:p-8 relative shadow-2xl max-h-[90vh] overflow-y-auto border-2 gold-border transform scale-95 transition-transform duration-300" id="modal-content-box">
+            
+            <!-- Close Button -->
+            <button onclick="closeBookingModal()" class="absolute top-5 right-5 text-stone-400 hover:text-softbrown w-9 h-9 rounded-full bg-champagne-50 flex items-center justify-center transition-colors">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+
+            <div class="text-center space-y-2 mb-6 pr-6">
+                <span class="text-champagne-600 text-[10px] uppercase tracking-[0.2em] font-bold">TEMPAHAN PANTAS WHATSAPP</span>
+                <h3 class="font-serif text-2xl font-bold text-softbrown">Slot Rawatan Anda</h3>
+                <p class="text-xs text-softbrown/70">Sila lengkapkan butiran di bawah untuk dihantar ke WhatsApp.</p>
+            </div>
+
+            <form onsubmit="handleModalFormSubmit(event)" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-semibold uppercase tracking-wider text-softbrown mb-1.5">Pakej / Rawatan Pilihan</label>
+                    <input type="text" id="modal-package-name" readonly class="w-full px-4 py-2.5 rounded-xl border gold-border bg-champagne-50 text-softbrown font-bold text-sm">
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold uppercase tracking-wider text-softbrown mb-1.5">Nama Penuh *</label>
+                    <input type="text" id="modal-name" required class="w-full px-4 py-2.5 rounded-xl border gold-border focus:outline-none focus:ring-2 focus:ring-champagne-500 text-sm bg-ivory" placeholder="Cth: Siti Aminah">
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold uppercase tracking-wider text-softbrown mb-1.5">Nombor WhatsApp *</label>
+                    <input type="tel" id="modal-phone" required class="w-full px-4 py-2.5 rounded-xl border gold-border focus:outline-none focus:ring-2 focus:ring-champagne-500 text-sm bg-ivory" placeholder="Cth: 0123456789">
+                </div>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label class="block text-xs font-semibold uppercase tracking-wider text-softbrown mb-1.5">Tarikh Pilihan *</label>
+                        <input type="date" id="modal-date" required class="w-full px-4 py-2.5 rounded-xl border gold-border focus:outline-none focus:ring-2 focus:ring-champagne-500 text-sm bg-ivory">
+                    </div>
+                    <div>
+                        <label class="block text-xs font-semibold uppercase tracking-wider text-softbrown mb-1.5">Masa Pilihan *</label>
+                        <select id="modal-time" required class="w-full px-4 py-2.5 rounded-xl border gold-border focus:outline-none focus:ring-2 focus:ring-champagne-500 text-sm bg-ivory">
+                            <option value="10:00 AM">10:00 AM</option>
+                            <option value="11:30 AM">11:30 AM</option>
+                            <option value="02:00 PM">02:00 PM</option>
+                            <option value="03:30 PM">03:30 PM</option>
+                            <option value="05:00 PM">05:00 PM</option>
+                            <option value="06:30 PM">06:30 PM</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold uppercase tracking-wider text-softbrown mb-1.5">Bilangan Pelanggan *</label>
+                    <select id="modal-pax" required class="w-full px-4 py-2.5 rounded-xl border gold-border focus:outline-none focus:ring-2 focus:ring-champagne-500 text-sm bg-ivory">
+                        <option value="1 Orang">1 Orang</option>
+                        <option value="2 Orang">2 Orang (Bersama Teman)</option>
+                        <option value="3 Orang">3 Orang</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label class="block text-xs font-semibold uppercase tracking-wider text-softbrown mb-1.5">Catatan Tambahan (Pilihan)</label>
+                    <textarea id="modal-notes" rows="2" class="w-full px-4 py-2.5 rounded-xl border gold-border focus:outline-none focus:ring-2 focus:ring-champagne-500 text-sm bg-ivory" placeholder="Sebarang nota..."></textarea>
+                </div>
+
+                <button type="submit" class="w-full gold-button text-white py-3.5 rounded-xl font-semibold text-sm tracking-wide shadow-lg flex items-center justify-center gap-2 mt-4">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span>HANTAR TEMPAHAN MELALUI WHATSAPP</span>
+                </button>
+            </form>
+
+        </div>
+    </div>
+
+    <!-- GALLERY LIGHTBOX MODAL -->
+    <div id="lightbox-modal" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-md hidden items-center justify-center p-4">
+        <button onclick="closeLightbox()" class="absolute top-6 right-6 text-white hover:text-champagne-300 text-3xl focus:outline-none z-50" aria-label="Tutup">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <button onclick="prevLightboxImage()" class="absolute left-4 top-1/2 -translate-y-1/2 text-white hover:text-champagne-300 text-3xl p-4 focus:outline-none z-50" aria-label="Sebelumnya">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button onclick="nextLightboxImage()" class="absolute right-4 top-1/2 -translate-y-1/2 text-white hover:text-champagne-300 text-3xl p-4 focus:outline-none z-50" aria-label="Seterusnya">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+        
+        <div class="max-w-4xl max-h-[85vh] relative flex items-center justify-center">
+            <img id="lightbox-img" src="" alt="Galeri Besar" class="max-w-full max-h-[80vh] object-contain rounded-xl shadow-2xl border border-white/20">
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // WhatsApp Business Number Configuration
+        const WHATSAPP_NUMBER = "60123456789";
+
+        // Treatment Data Store
+        const treatmentsData = {
+            rambut: [
+                { title: "Hair Wash & Blow", desc: "Cucian syampu premium dengan urutan kepala lembut dan pengeringan gaya natural.", benefit: "Menyegarkan kulit kepala & melancarkan peredaran darah.", duration: "45 Minit", price: "RM 45" },
+                { title: "Hair Spa Treatment", desc: "Rawatan intensif untuk merawat rambut rosak, kering dan kusut kembali lembut.", benefit: "Memulihkan kelembapan & kilauan semula jadi rambut.", duration: "1 Jam 30 Minit", price: "RM 110" },
+                { title: "Hair Mask Treatment", desc: "Masker berkhasiat tinggi untuk menyuburkan helai rambut dari akar ke hujung.", benefit: "Menguatkan struktur rambut & mencegah rambut gugur.", duration: "1 Jam", price: "RM 80" },
+                { title: "Scalp Treatment", desc: "Rawatan detoksifikasi kulit kepala untuk mengatasi kelemumur dan kegatalan.", benefit: "Membersihkan folikel rambut & kesihatan kulit kepala optimum.", duration: "1 Jam 15 Minit", price: "RM 95" },
+                { title: "Hair Repair Treatment", desc: "Pemulihan mendalam khusus untuk rambut yang sering diwarnakan atau rebonding.", benefit: "Membaiki ikatan rambut yang rosak.", duration: "1 Jam 45 Minit", price: "RM 140" },
+                { title: "Hair Styling", desc: "Pengayaan rambut profesional untuk majlis istimewa atau penampilan harian.", benefit: "Gaya kemas, tahan lama & menawan.", duration: "45 Minit", price: "RM 60" }
+            ],
+            wajah: [
+                { title: "Basic Facial", desc: "Pembersihan asas wajah, buang sel kulit mati dan masker menyegarkan.", benefit: "Kulit lebih bersih, segar dan bernafas.", duration: "1 Jam", price: "RM 80" },
+                { title: "Deep Cleansing Facial", desc: "Rawatan mendalam untuk menyingkirkan bintik hitam, whitehead dan minyak berlebihan.", benefit: "Pori lebih bersih & mengelakkan jerawat.", duration: "1 Jam 30 Minit", price: "RM 120" },
+                { title: "Hydrating Facial", desc: "Infusi kelembapan intensif untuk kulit kering dan kusam.", benefit: "Kulit lebih tegang, lembap dan 'glowing'.", duration: "1 Jam 15 Minit", price: "RM 130" },
+                { title: "Brightening Facial", desc: "Rawatan pencerahan untuk tona kulit tidak sekata dan bintik hitam.", benefit: "Tona kulit lebih sekata & berseri.", duration: "1 Jam 15 Minit", price: "RM 140" },
+                { title: "Soothing Facial", desc: "Rawatan menenangkan khusus untuk kulit sensitif atau kemerahan.", benefit: "Mengurangkan kerengsaan & menyamankan kulit.", duration: "1 Jam", price: "RM 110" }
+            ],
+            spa: [
+                { title: "Aromatherapy Relaxation", desc: "Terapi urutan seluruh badan menggunakan minyak pati aromaterapi semulajadi.", benefit: "Melegakan ketegangan otot & menenangkan minda.", duration: "1 Jam 30 Minit", price: "RM 150" },
+                { title: "Body Scrub", desc: "Skrub badan eksklusif untuk membuang sel kulit mati dan mencerahkan kulit.", benefit: "Kulit lebih lembut, halus dan cerah berseri.", duration: "1 Jam", price: "RM 90" },
+                { title: "Body Spa", desc: "Pengalaman spa menyeluruh merangkumi mandian herba dan bungkusan badan.", benefit: "Detoksifikasi badan & relaksasi total.", duration: "2 Jam", price: "RM 200" },
+                { title: "Foot Spa", desc: "Rendaman kaki herba, skrub dan urutan ringkas untuk kaki yang penat berjalan.", benefit: "Melancarkan peredaran darah & melegakan kaki.", duration: "45 Minit", price: "RM 60" },
+                { title: "Head & Shoulder Massage", desc: "Urutan tertumpu pada bahu, tengkuk dan kepala untuk meredakan migrain dan stress.", benefit: "Melegakan ketegangan leher & kepala serta-merta.", duration: "45 Minit", price: "RM 70" }
+            ],
+            kecantikan: [
+                { title: "Manicure", desc: "Penjagaan kuku tangan, merapi kutikel dan kemasan bentuk kuku.", benefit: "Kuku kelihatan kemas, sihat dan rapi.", duration: "45 Minit", price: "RM 50" },
+                { title: "Pedicure", desc: "Rawatan kuku kaki, membuang sel kulit mati di tumit dan merapikan kuku.", benefit: "Kaki lebih bersih, lembut dan kuku kemas.", duration: "1 Jam", price: "RM 65" },
+                { title: "Hand Treatment", desc: "Rawatan pelembapan dan urutan tangan untuk kulit tangan yang halus.", benefit: "Melembutkan kulit tangan yang kasar.", duration: "45 Minit", price: "RM 55" },
+                { title: "Foot Treatment", desc: "Rawatan khas merawat tumit merekah dan melembapkan kulit kaki.", benefit: "Tumit kaki lembut dan bebas rekahan.", duration: "1 Jam", price: "RM 75" }
+            ]
+        };
+
+        // Render Treatments on page load
+        function renderTreatments(category) {
+            const container = document.getElementById('treatment-container');
+            const items = treatmentsData[category] || [];
+            
+            let html = '';
+            items.forEach(item => {
+                html += `
+                    <div class="bg-white p-6 rounded-2xl border gold-border shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                        <div>
+                            <div class="flex justify-between items-start mb-3">
+                                <h3 class="font-serif text-xl font-bold text-softbrown">${item.title}</h3>
+                                <span class="text-xs font-bold text-champagne-700 bg-champagne-100 px-2.5 py-1 rounded-full">${item.price}</span>
+                            </div>
+                            <p class="text-softbrown/70 text-xs sm:text-sm mb-4 leading-relaxed">${item.desc}</p>
+                            <div class="bg-champagne-50/80 p-3 rounded-xl mb-4 text-xs text-stone-600 border border-champagne-200/50">
+                                <span class="font-semibold text-softbrown block mb-0.5"><i class="fa-solid fa-sparkles text-champagne-600 mr-1"></i> Manfaat:</span>
+                                ${item.benefit}
+                            </div>
+                        </div>
+                        <div class="flex items-center justify-between pt-4 border-t gold-border mt-2">
+                            <span class="text-xs text-stone-600 font-medium"><i class="fa-regular fa-clock mr-1"></i> ${item.duration}</span>
+                            <button onclick="openBookingModal('${item.title}', '${item.price.replace('RM ', '')}')" class="gold-button text-white px-4 py-2 rounded-full text-xs font-semibold shadow-sm flex items-center gap-1.5">
+                                <i class="fa-brands fa-whatsapp"></i> TEMPAH
+                            </button>
+                        </div>
+                    </div>
+                `;
+            });
+            container.innerHTML = html;
+        }
+
+        // Filter treatment tabs
+        function filterTreatment(category, event) {
+            const tabs = document.querySelectorAll('.treatment-tab');
+            tabs.forEach(tab => {
+                tab.classList.remove('bg-champagne-600', 'text-white', 'shadow-md');
+                tab.classList.add('bg-white', 'text-softbrown');
+            });
+            event.currentTarget.classList.remove('bg-white', 'text-softbrown');
+            event.currentTarget.classList.add('bg-champagne-600', 'text-white', 'shadow-md');
+
+            renderTreatments(category);
+        }
+
+        // Mobile menu toggle
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+        document.getElementById('mobile-menu-btn').addEventListener('click', toggleMobileMenu);
+
+        // Close mobile menu on link click
+        document.querySelectorAll('.mobile-link').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('mobile-menu').classList.add('hidden');
+            });
+        });
+
+        // FAQ Accordion
+        function toggleFaq(button) {
+            const content = button.nextElementSibling;
+            const icon = button.querySelector('fa-solid, i');
+            
+            // Toggle current
+            content.classList.toggle('hidden');
+            icon.classList.toggle('fa-plus');
+            icon.classList.toggle('fa-minus');
+            icon.classList.toggle('rotate-45');
+        }
+
+        // Booking Modal functions
+        function openBookingModal(packageName, price) {
+            const modal = document.getElementById('booking-modal');
+            const modalBox = document.getElementById('modal-content-box');
+            document.getElementById('modal-package-name').value = `${packageName} (RM ${price})`;
+            
+            // Set default date to tomorrow
+            const tomorrow = new Date();
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            document.getElementById('modal-date').valueAsDate = tomorrow;
+
+            modal.classList.remove('opacity-0', 'pointer-events-none');
+            modal.classList.add('opacity-100');
+            modalBox.classList.remove('scale-95');
+            modalBox.classList.add('scale-100');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeBookingModal() {
+            const modal = document.getElementById('booking-modal');
+            const modalBox = document.getElementById('modal-content-box');
+            modal.classList.remove('opacity-100');
+            modal.classList.add('opacity-0', 'pointer-events-none');
+            modalBox.classList.remove('scale-100');
+            modalBox.classList.add('scale-95');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal on background click
+        document.getElementById('booking-modal').addEventListener('click', (e) => {
+            if (e.target.id === 'booking-modal') {
+                closeBookingModal();
+            }
+        });
+
+        // Close modal on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeBookingModal();
+                closeLightbox();
+            }
+        });
+
+        // Modal Form Submission to WhatsApp
+        function handleModalFormSubmit(event) {
+            event.preventDefault();
+            const name = document.getElementById('modal-name').value;
+            const phone = document.getElementById('modal-phone').value;
+            const pkg = document.getElementById('modal-package-name').value;
+            const date = document.getElementById('modal-date').value;
+            const time = document.getElementById('modal-time').value;
+            const pax = document.getElementById('modal-pax').value;
+            const notes = document.getElementById('modal-notes').value;
+
+            const message = `*TEMPAHAN RAWATAN - BUTIK SALON & SPA MUNIRAH*%0A%0A*Nama:* ${encodeURIComponent(name)}%0A*No. Tel/WhatsApp:* ${encodeURIComponent(phone)}%0A*Pakej/Rawatan:* ${encodeURIComponent(pkg)}%0A*Tarikh:* ${encodeURIComponent(date)}%0A*Masa:* ${encodeURIComponent(time)}%0A*Bilangan:* ${encodeURIComponent(pax)}%0A*Catatan:* ${encodeURIComponent(notes || 'Tiada')}`;
+
+            window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, '_blank');
+            closeBookingModal();
+        }
+
+        // Main Form Submission to WhatsApp
+        function handleMainFormSubmit(event) {
+            event.preventDefault();
+            const name = document.getElementById('main-name').value;
+            const phone = document.getElementById('main-phone').value;
+            const category = document.getElementById('main-category').value;
+            const pkg = document.getElementById('main-package').value;
+            const date = document.getElementById('main-date').value;
+            const time = document.getElementById('main-time').value;
+            const pax = document.getElementById('main-pax').value;
+            const notes = document.getElementById('main-notes').value;
+
+            const message = `*PERTANYAAN & TEMPAHAN - BUTIK SALON & SPA MUNIRAH*%0A%0A*Nama:* ${encodeURIComponent(name)}%0A*No. Tel/WhatsApp:* ${encodeURIComponent(phone)}%0A*Kategori:* ${encodeURIComponent(category)}%0A*Rawatan:* ${encodeURIComponent(pkg)}%0A*Tarikh:* ${encodeURIComponent(date)}%0A*Masa:* ${encodeURIComponent(time)}%0A*Bilangan:* ${encodeURIComponent(pax)}%0A*Catatan:* ${encodeURIComponent(notes || 'Tiada')}`;
+
+            window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${message}`, '_blank');
+        }
+
+        // Gallery Lightbox Logic
+        const galleryImages = [
+            "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&w=1200&q=80",
+            "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1200&q=80"
+        ];
+        let currentImageIndex = 0;
+
+        function openLightbox(index) {
+            currentImageIndex = index;
+            const modal = document.getElementById('lightbox-modal');
+            const img = document.getElementById('lightbox-img');
+            img.src = galleryImages[currentImageIndex];
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeLightbox() {
+            const modal = document.getElementById('lightbox-modal');
+            modal.classList.remove('flex');
+            modal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        function nextLightboxImage() {
+            currentImageIndex = (currentImageIndex + 1) % galleryImages.length;
+            document.getElementById('lightbox-img').src = galleryImages[currentImageIndex];
+        }
+
+        function prevLightboxImage() {
+            currentImageIndex = (currentImageIndex - 1 + galleryImages.length) % galleryImages.length;
+            document.getElementById('lightbox-img').src = galleryImages[currentImageIndex];
+        }
+
+        // Keyboard arrow support for Lightbox
+        document.addEventListener('keydown', (e) => {
+            const modal = document.getElementById('lightbox-modal');
+            if (!modal.classList.contains('hidden')) {
+                if (e.key === 'ArrowRight') nextLightboxImage();
+                if (e.key === 'ArrowLeft') prevLightboxImage();
+            }
+        });
+
+        // Initialize treatments on load
+        window.addEventListener('DOMContentLoaded', () => {
+            renderTreatments('rambut');
+            
+            // Set min date for date inputs to today
+            const today = new Date().toISOString().split('T')[0];
+            const dateInputs = document.querySelectorAll('input[type="date"]');
+            dateInputs.forEach(input => input.min = today);
+        });
+    </script>
+</body>
+</html>
